@@ -105,3 +105,8 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+.country {
+  text-align: center;
+  font-size: 20px;
+}
