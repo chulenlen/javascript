@@ -39,3 +39,9 @@ const showTask = () => {
 };
 
 showTask();
+
+inputBox.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    addTask();
+  }
+});
