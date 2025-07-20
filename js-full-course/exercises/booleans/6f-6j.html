@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6F - 6J</title>
+  </head>
+  <body>
+    <script>
+      const randomNum = Math.random();
+      let result = '';
+
+      if (randomNum <= 0.5) {
+        result = 'Heads';
+      } else {
+        result = 'Tails';
+      }
+
+      let guess = 'Heads';
+
+      if (guess === 'Heads') {
+        console.log('You win');
+      } else {
+        console.log('You lose');
+      }
+
+      console.log(guess === 'Heads' ? 'You win Ternary' : 'You lose Ternary');
+
+      console.log(result);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6A - 6E</title>
+  </head>
+  <body>
+    <script>
+      const hour = 13;
+      const name = 'Chulen';
+      const age = 65;
+      const isHoliday = true;
+
+      if (hour >= 6 && hour <= 12) {
+        console.log(`Good Morning, ${name}!`);
+      } else if (hour >= 13 && hour <= 17) {
+        console.log(`Good afternoon, ${name}!`);
+      } else {
+        console.log(`Good Night, ${name}!`);
+      }
+
+      if (isHoliday && (age <= 6 || age >= 60)) {
+        console.log("You're discounted and today is holiday");
+      } else {
+        console.log('No Discount');
+      }
+    </script>
+  </body>
+</html>
